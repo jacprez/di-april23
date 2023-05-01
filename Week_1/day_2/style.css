@@ -1,0 +1,8 @@
+p::first-letter{
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: bolder;
+    color: red;
+    float: left;
+    padding-right: 10px;
+}
