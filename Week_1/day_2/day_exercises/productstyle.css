@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div {
+    border: 2px solid gray;
+} */
+
+.cards {
+    float: left;
+    padding: 5px;
+    padding: 10px;
+    border: 2px solid gray;
+    display: inline-block;
+
+}
+
+.desc {
+    height: 50px;
+}
+
+img {
+    width: 25%;
+}
+
+#container {
+    display: flex;
+
+}
+
