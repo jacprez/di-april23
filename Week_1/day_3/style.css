@@ -1,0 +1,116 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+
+/* .container {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+.firstbox {
+    background-color: red;
+    width: 25%;
+}
+
+
+.secondbox {
+    background-color: orange;
+    width: 25%;
+
+}
+
+.thirdbox {
+    background-color: yellow;
+    width: 25%;
+
+}
+
+.fourthbox {
+
+    background-color: green;
+    width: 25%;
+
+} */
+
+
+
+
+/* Exercises */
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.box1, .box2, .box3 {
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+} */
+
+/* section {
+    border: 0.5rem solid red;
+    /* height: 40vh; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    border: 0.2rem solid black;
+    background-color: aqua;
+    color: white;
+    font-size: 2rem;
+}
+
+.second {
+    width: 50%;
+    align-self: center;
+} */
+
+
+
+/* .sectiongrid {
+    display: grid;
+    height: 200px;
+    border: 1px solid gray;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+} */
+
+
+.greenbox {
+    background-color: lightgreen;
+}
+
+.purplebox {
+    background-color: rgba(240, 67, 240, 0.541);
+}
+
+.pinkbox {
+    background-color: pink;
+}
+
+.bluebox {
+    background-color: lightblue;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1 fr 2 fr 1 fr;
+    gap: 1rem ;
+}
