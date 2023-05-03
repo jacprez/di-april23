@@ -13,8 +13,8 @@ section > * {
     font-family: sans-serif;
 }
 
-h3, p {
-    padding-left: 5px;
+h3  {
+    margin-left: 40px;
 }
 
 
@@ -35,6 +35,8 @@ h3, p {
 
 .city {
     margin-left: auto;
+    font-size: 20px;
+
 }
 
 .topleft {
@@ -42,7 +44,7 @@ h3, p {
 }
 
 .name {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .topright {
