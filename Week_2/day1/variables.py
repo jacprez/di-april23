@@ -55,15 +55,15 @@ else :
 # if both are true, it will print the first if statement. if neither are true, you will see the else statement
 
 
-Here is a table of prices for a wedding catering company:
+# Here is a table of prices for a wedding catering company:
 
-# of guests	price
-Up to 50 people	$4,000
-Up to 100 people	$10,000
-Up to 200 people	$15,000
-More than 200 people	$20,000
+# # of guests	price
+# Up to 50 people	$4,000
+# Up to 100 people	$10,000
+# Up to 200 people	$15,000
+# More than 200 people	$20,000
 
-📝 Instructions:
+# 📝 Instructions:
 
-Please write an program that prompts the user for the number of people attending their wedding and prints the corresponding price in the console.
-For example, if the user says that 20 people are attending to the wedding, it must cost $4,000 dollars.
+# Please write an program that prompts the user for the number of people attending their wedding and prints the corresponding price in the console.
+# For example, if the user says that 20 people are attending to the wedding, it must cost $4,000 dollars.
