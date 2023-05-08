@@ -14,7 +14,9 @@
 
 # Challenge 2
 
-users_word = input("Please enter a word: ")
+# input_string = input("Enter a string: ")
 
-# for letter in users_word :
-#     if 
+# output_string = input_string[0]
+# for i in range(1, len(input_string)):
+#     if input_string[i] != input_string[i-1]:
+#         output_string += input_string[i]
