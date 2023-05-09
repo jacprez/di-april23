@@ -92,3 +92,12 @@
 
 # Exercise 8: Who Ordered A Pizza ?
 
+user_answer = ""
+all_toppings = []
+
+while user_answer != "quit" :
+    print(f"We will add {user_answer} to your pizza")
+    all_toppings.append(user_answer)
+    user_answer = input("Give me a pizza topping ")
+print("this is your pizza toppings")
+

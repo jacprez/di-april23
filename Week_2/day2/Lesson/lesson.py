@@ -33,10 +33,27 @@
 # for color in colors :
 #     print(color)
     
-numbers = [1,2,3,4,5,6]
+# numbers = [1,2,3,4,5,6]
 
-for num in numbers :
-    if num % 2 ==0 :
-        print(f"the number {num} is even")
-    else :
-        print(f"the number {num} is odd")
+# for num in numbers :
+#     if num % 2 ==0 :
+#         print(f"the number {num} is even")
+#     else :
+#         print(f"the number {num} is odd")
+
+
+
+# While loops - no straight endings
+
+# create a new list that only contains the uppercased words
+words = ['PYthoN' , 'JoHN' , 'chEEsE' , 'hAm' , 'doe']
+new_list = []
+
+for item in words :
+    new_item = item.upper()
+    if new_item == "cheese".upper() :
+        break 
+    new_list.append(new_item)
+    
+print(new_list)
+    
