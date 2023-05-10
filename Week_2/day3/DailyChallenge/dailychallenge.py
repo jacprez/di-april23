@@ -1,18 +1,17 @@
 # Challenge 1
 
 
-# user_word = input("Please write a word: ")
-# indexes = {}
+user_word = input("Please write a word: ")
+indexes = {}
 
-# for i in range(len(user_word)) :
-#     letters = user_word[i]
-#     if letters in indexes :
-#         indexes[letters].append(i)
-#     else:
-#         indexes[letters] = [i]
+for position, letter in enumerate(user_word) :
+    if letter in indexes :
+        indexes[letter].append(position)
+    else:
+        indexes[letter] = [position]
         
 
-# print(indexes)
+print(indexes)
 
 # Challenge 2
 
