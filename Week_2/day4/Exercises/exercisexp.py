@@ -83,21 +83,27 @@
 
 import random
 
-def get_random_temp() :
-    return random.randint(-10, 40)
+# def get_random_temp() :
+#     return random.randint(-10, 40)
 
 # print(get_random_temp())
 
-def main() :
-    random_temp_number = get_random_temp()
-    if random_temp_number < 0 :
-        print(f"The temperate right now is {random_temp_number} degrees which is below 0.")
-    elif 0 < random_temp_number < 16 :
-        print(f"Quite chill! Don't forget your coat.")
-    elif 16 < random_temp_number < 23 :
-        print(f"It is {random_temp_number} degrees outside")
-    elif 23 < random_temp_number < 40 :
-        print(f"It's pretty hot out there.")
+# 3
+# def main() :
+#     random_temp_number = get_random_temp()
+#     if random_temp_number < 0 :
+#         print(f"The temperate right now is {random_temp_number} degrees which is below 0.")
+#     elif 0 < random_temp_number < 16 :
+#         print(f"Quite chill! Don't forget your coat.")
+#     elif 16 < random_temp_number < 23 :
+#         print(f"It is {random_temp_number} degrees outside")
+#     elif 23 < random_temp_number < 40 :
+#         print(f"It's pretty hot out there.")
     
     
-main()
+# main()
+
+# 4
+
+def get_random_temp(season) :
+    return random.randint(-10, 40)
