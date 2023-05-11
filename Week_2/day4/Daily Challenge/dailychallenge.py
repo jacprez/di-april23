@@ -10,18 +10,25 @@
 # $a 
 # #t%
 # ^r!"""
-matrix = [['7','i','3'],['T', 's', 'i'], ['j', 's', 'i'], ['k', 's', 'p']]
-hidden_message = []
-number_of_col = len(matrix[0])
-number_of_row = len(matrix)
+# matrix = [['7','i','3'],['T', 's', 'i'], ['#', 's', 'i'], ['^', 's', 'p']]
+# hidden_message = []
+# number_of_col = len(matrix[0])
+# number_of_row = len(matrix)
+# symbol_flag = False # This is to help flag situations of things to potentially remember. i.e. knowing if a character is a letter or symbol
 
-for col_index in range(number_of_col):
-    for row_index in range(number_of_row):
-        current_character = matrix[row_index][col_index]
-        if current_character.isalpha() == True:
-            hidden_message.append(current_character)
+# for col_index in range(number_of_col):
+#     for row_index in range(number_of_row):
+#         current_character = matrix[row_index][col_index]
+#         if current_character.isalpha() == True:
+#             if symbol_flag == True :
+#                 hidden_message.append(" ")
+#                 symbol_flag = False
+#             hidden_message.append(current_character)
+#         else:
+#             symbol_flag = True
         
-        
+# print(hidden_message)
+# print(''.join(hidden_message))
         
         # print(matrix[row_index][col_index])
 
@@ -34,3 +41,24 @@ for col_index in range(number_of_col):
 # print(matrix[0][0])
 # print(matrix[1][0])
 # print(matrix[2][0])
+
+
+# Class Way to do it
+
+secret = """7i3
+Tsi
+h%x
+i #
+sM 
+$a 
+#t%
+^r!"""
+
+def create_matrix():
+    list1 = secret.split("\n") #this makes lists when there is a break
+    new_list = []
+    for num in range(3):
+        new_list.append([char[num] for char in list1])
+    print(new_list)
+    
+create_matrix()
