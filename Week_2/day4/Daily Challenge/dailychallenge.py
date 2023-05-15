@@ -45,20 +45,37 @@
 
 # Class Way to do it
 
+
 secret = """7i3
 Tsi
 h%x
 i #
 sM 
-$a 
+$a xs
 #t%
 ^r!"""
 
-def create_matrix():
-    list1 = secret.split("\n") #this makes lists when there is a break
+def create_matrix () :
+    lst_one = secret.split("\n")
     new_list = []
-    for num in range(3):
-        new_list.append([char[num] for char in list1])
-    print(new_list)
-    
-create_matrix()
+    for num in range(3) :
+        new_list.append([char[num] for char in lst_one])
+    # print(new_list)
+
+    return new_list
+
+
+def create_sentence() :
+    lst = create_matrix() #"hello"
+    sentence = ""
+    for column in lst : 
+        for char in column:
+            if char.isalpha() :
+                sentence += char
+            else :
+                sentence += " "
+
+    print(sentence)
+
+create_sentence()
+
