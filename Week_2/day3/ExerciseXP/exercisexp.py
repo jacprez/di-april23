@@ -92,3 +92,54 @@ more_on_zara = dict({
 brand['more_on_zara'] = brand
 
 print(brand['more_on_zara']) # added an empty dictionary
+
+# Exercise 4 : Disney Characters
+
+users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
+
+# Use a for loop to recreate the 1st result
+users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+disney_users_A = {}
+
+for index, user in enumerate(users):
+    disney_users_A[user] = index
+
+print(disney_users_A)
+
+# Use a for loop to recreate the 2nd result
+
+users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+disney_users_B = {}
+
+for index, user in enumerate(users):
+    disney_users_B[index] = user
+
+print(disney_users_B)
+
+# Use a method to recreate the 3rd result.
+users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+disney_users_C = dict(sorted(enumerate(users), key=lambda x: x[1]))
+
+print(disney_users_C)
+
+# Only recreate the 1st result for: The characters, which names contain the letter “i”.
+
+users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+disney_users_i = {}
+
+for index, user in enumerate(users):
+    if "i" in user:
+        disney_users_i[user] = index
+
+print(disney_users_i)
+
+# The characters, which names start with the letter “m” or “p”
+
+users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+disney_users_m_p = {}
+
+for index, user in enumerate(users):
+    if user.startswith(("m", "p")):
+        disney_users_m_p[user] = index
+
+print(disney_users_m_p)
