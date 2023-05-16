@@ -30,3 +30,17 @@ best_breed = 'havanese'
 
 zander_dog.check_breed(best_breed) # --> The dog is not the best
 cody_dog.check_breed(best_breed) # --> The dog is the best
+
+
+
+# Modules
+
+# Alias example: the alias is called r
+import random as r
+r.randint()
+
+# Dunder methods
+
+x = 5
+y = 4
+x + y # --> x.__add__(y) <-- this is what is happening behind the scene
