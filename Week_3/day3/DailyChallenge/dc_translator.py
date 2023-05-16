@@ -7,6 +7,19 @@
 
 
 from deep_translator import GoogleTranslator
+french_words= ["Bonjour", "Au revoir", "Bienvenue", "A bientôt"]
 
-example = GoogleTranslator(source='auto', target='de').translate() 
-print(example)
+for word in french_words:
+    english_translation = GoogleTranslator(source='french', target='english').translate(word)
+    translation_dict = {}
+    translation_dict[word] = english_translation
+    print(translation_dict)
+
+# example = GoogleTranslator(source='auto', target='fr').translate(french_words) 
+# print(example)
+
+# french_words= ["Bonjour", "Au revoir", "Bienvenue", "A bientôt"]
+# translated_word = LingueeTranslator(source='english', target='french').translate(french_words)
+# print(translated_word)
+
+# can't finish because I am having trouble with the modules
