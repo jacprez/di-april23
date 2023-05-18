@@ -37,3 +37,25 @@ print(my_text.most_common_word())
 print(my_text.unique_words())
 
 # Part 2 - I tried to figure out but I wasn't able to
+
+
+# Class way to do this
+
+class Text :
+    def __init__(self, text):
+        self.sentence = text.replace('.', " ").lower()
+    
+    def frequences_word(self) :
+        pass
+    
+    def count_occurence_word(self, word):
+        try :
+            if type(word) is not str:
+                raise TypeError("Wrong data type")
+            else: 
+                list_sentence = self.sentence.split(" ")
+                amount_time = list_sentence.count(word)
+                if amount_time == 0 :
+                    return None
+        except:
+            pass
