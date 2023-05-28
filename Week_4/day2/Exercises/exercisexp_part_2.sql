@@ -55,6 +55,6 @@
 
 -- 14.Write a query to find which city is in which country.
 -- SELECT city.city, country.country FROM city
--- JOIN country ON city.country_id = country.country_id
+-- JOIN country ON city.country_id = country.country_id 
 
 
